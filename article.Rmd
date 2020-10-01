@@ -1,0 +1,37 @@
+---
+title: ""
+author: "Bonnie McLean"
+date: "`r Sys.Date()`"
+output: 
+  bookdown::word_document2:
+    number_sections: yes
+    reference_docx: wordstyles.docx
+bibliography: references.bib
+indent: true
+
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(bookdown)
+
+```
+
+# Introduction
+
+
+# Method
+
+## Materials
+
+
+## Participants
+
+
+## Procedure
+
+# Results
+
+# Discussion
+
+# Conclusion
