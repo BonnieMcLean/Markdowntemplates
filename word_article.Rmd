@@ -1,0 +1,56 @@
+---
+title: "My article"
+author: "Bonnie McLean"
+date: "`r Sys.Date()`"
+output: 
+  bookdown::word_document2:
+    number_sections: no
+    reference_docx: wordstyles.docx
+    code_folding: hide
+bibliography: references.bib
+indent: true
+
+---
+
+```{r setup, include=FALSE}
+# don't include any code
+knitr::opts_chunk$set(echo = FALSE)
+library(bookdown)
+
+```
+
+# Introduction
+
+Cite articles like this [@johansson_typology_2020], or like this: @johansson_typology_2020 found that blah di blah. Where `@johansson_typology_2020` is the name of the bibtex entry in your file references.bib, where you have all your articles that you are citing in bibtex format.
+
+Cross-referencing is done like this: See section \@ref(materials) for a discussion of the materials. See Figure \@ref(fig:cars-plot) for a plot of some cars.
+
+```{r cars-plot, fig.cap="A plot of some cars."}
+plot(cars)
+```
+
+See table \@ref(tab:car-table) for some stuff about cars. 
+
+```{r car-table}
+knitr::kable(mtcars[1:5, 1:5], caption = "Table about cars")
+```
+
+Blah blah blah
+
+# Method
+
+## Materials
+
+
+## Participants
+
+
+## Procedure
+
+# Results
+
+# Discussion
+
+# Conclusion
+
+# References
