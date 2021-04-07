@@ -3,7 +3,7 @@ title: ""
 author: "Bonnie McLean"
 date: "`r Sys.Date()`"
 output: 
-# change output to html_document2 and uncomment theme, toc, toc_float and code_folding to output to an interactive html document
+# change output to html_document2 and uncomment theme, toc, toc_float and code_folding to output to an interactive html document, while commenting out reference_docx
   bookdown::word_document2:
     number_sections: yes
     reference_docx: wordstyles.docx
