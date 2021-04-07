@@ -24,7 +24,9 @@ library(bookdown)
 
 # Introduction
 
-For cross-referencing sections, figures, and tables, see [here](https://bookdown.org/yihui/rmarkdown/bookdown-markdown.html#cross-referencing)
+For cross-referencing sections, figures, and tables, see [here](https://bookdown.org/yihui/rmarkdown/bookdown-markdown.html#cross-referencing).
+
+Cite articles like this [@johansson_typology_2020], or like this: @johansson_typology_2020 found that blah di blah. Where `@johansson_typology_2020` is the name of the bibtex entry.
 
 # Method
 
